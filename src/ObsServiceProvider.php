@@ -1,6 +1,6 @@
 <?php
 
-namespace JkYang\Obs;
+namespace jkyang\Obs;
 
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;

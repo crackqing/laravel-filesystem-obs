@@ -1,6 +1,6 @@
 <?php
 
-    namespace JkYang\Obs\Internal\Common;
+    namespace jkyang\Obs\Internal\Common;
 
     /**
      * JSON Schema formatter class

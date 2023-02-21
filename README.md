@@ -15,12 +15,12 @@ $ composer require "JkYang/laravel-filesystem-obs" -vvv
 
 # Configuration
 
-1. After installing the library, register the `JkYang\Obs\ObsServiceProvider` in your `config/app.php` file:
+1. After installing the library, register the `jkyang\Obs\ObsServiceProvider` in your `config/app.php` file:
 
   ```php
   'providers' => [
       // Other service providers...
-      JkYang\Obs\ObsServiceProvider::class,
+      jkyang\Obs\ObsServiceProvider::class,
   ],
   ```
 

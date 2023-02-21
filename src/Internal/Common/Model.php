@@ -1,6 +1,6 @@
 <?php
 
-    namespace JkYang\Obs\Internal\Common;
+    namespace jkyang\Obs\Internal\Common;
 
     class Model implements \ArrayAccess, \IteratorAggregate, \Countable, ToArrayInterface
     {

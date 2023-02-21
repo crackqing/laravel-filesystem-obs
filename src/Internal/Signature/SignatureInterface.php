@@ -1,8 +1,8 @@
 <?php
 
-namespace JkYang\Obs\Internal\Signature;
+namespace jkyang\Obs\Internal\Signature;
 
-use JkYang\Obs\Internal\Common\Model;
+use jkyang\Obs\Internal\Common\Model;
 
 interface SignatureInterface
 {

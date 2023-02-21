@@ -1,6 +1,6 @@
 <?php
 
-namespace JkYang\Obs\Test;
+namespace jkyang\Obs\Test;
 
 use PHPUnit\Framework\TestCase;
 

@@ -1,15 +1,15 @@
 <?php
 
-namespace JkYang\Obs\Internal;
+namespace jkyang\Obs\Internal;
 
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;
 use Illuminate\Support\Facades\Log;
-use JkYang\Obs\ObsException;
-use JkYang\Obs\Internal\Common\Model;
-use JkYang\Obs\Internal\Resource\Constants;
-use JkYang\Obs\Internal\Common\CheckoutStream;
+use jkyang\Obs\ObsException;
+use jkyang\Obs\Internal\Common\Model;
+use jkyang\Obs\Internal\Resource\Constants;
+use jkyang\Obs\Internal\Common\CheckoutStream;
 use Psr\Http\Message\StreamInterface;
 
 trait GetResponseTrait

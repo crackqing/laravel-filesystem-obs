@@ -1,6 +1,6 @@
 <?php
 
-namespace JkYang\Obs\Internal;
+namespace jkyang\Obs\Internal;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7;
@@ -9,13 +9,13 @@ use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Exception\ConnectException;
 use Illuminate\Support\Facades\Log;
-use JkYang\Obs\Internal\Common\Model;
-use JkYang\Obs\Internal\Resource\V2Constants;
-use JkYang\Obs\ObsException;
-use JkYang\Obs\Internal\Signature\V4Signature;
-use JkYang\Obs\Internal\Signature\DefaultSignature;
-use JkYang\Obs\Internal\Resource\Constants;
-use JkYang\Obs\Internal\Resource\V2RequestResource;
+use jkyang\Obs\Internal\Common\Model;
+use jkyang\Obs\Internal\Resource\V2Constants;
+use jkyang\Obs\ObsException;
+use jkyang\Obs\Internal\Signature\V4Signature;
+use jkyang\Obs\Internal\Signature\DefaultSignature;
+use jkyang\Obs\Internal\Resource\Constants;
+use jkyang\Obs\Internal\Resource\V2RequestResource;
 use Psr\Http\Message\StreamInterface;
 
 trait SendRequestTrait

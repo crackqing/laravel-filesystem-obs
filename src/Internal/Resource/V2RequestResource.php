@@ -1,5 +1,5 @@
 <?php
-namespace JkYang\Obs\Internal\Resource;
+namespace jkyang\Obs\Internal\Resource;
 
 class V2RequestResource {
     public static $RESOURCE_ARRAY = [ 

@@ -1,8 +1,8 @@
 <?php
-namespace JkYang\Obs\Internal\Common;
+namespace jkyang\Obs\Internal\Common;
 
-use JkYang\Obs\ObsClient;
-use JkYang\Obs\Internal\Resource\V2Constants;
+use jkyang\Obs\ObsClient;
+use jkyang\Obs\Internal\Resource\V2Constants;
 
 class V2Transform implements ITransform
 {

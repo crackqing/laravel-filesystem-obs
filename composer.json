@@ -1,5 +1,5 @@
 {
-    "name": "JkYang/laravel-filesystem-obs",
+    "name": "jkyang/laravel-filesystem-obs",
     "description": "huawei cloud obs filesystem storage for laravel 5+ or Lumen ",
     "keywords": [
         "huawei",
@@ -15,18 +15,18 @@
     },
     "autoload": {
         "psr-4": {
-            "JkYang\\Obs\\": "src/"
+            "jkyang\\Obs\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JkYang\\Obs\\Test\\": "tests/"
+            "jkyang\\Obs\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "JkYang\\Obs\\ObsServiceProvider"
+                "jkyang\\Obs\\ObsServiceProvider"
             ]
         }
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace JkYang\Obs;
+namespace jkyang\Obs;
 
 use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\Adapter\Polyfill\NotSupportingVisibilityTrait;

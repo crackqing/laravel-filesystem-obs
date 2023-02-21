@@ -1,10 +1,10 @@
 <?php
 
-    namespace JkYang\Obs\Internal\Common;
+    namespace jkyang\Obs\Internal\Common;
 
     use Psr\Http\Message\StreamInterface;
     use GuzzleHttp\Psr7\StreamDecoratorTrait;
-    use JkYang\Obs\ObsException;
+    use jkyang\Obs\ObsException;
 
     class CheckoutStream implements StreamInterface
     {

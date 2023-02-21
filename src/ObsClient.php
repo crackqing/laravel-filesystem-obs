@@ -1,6 +1,6 @@
 <?php
 
-namespace JkYang\Obs;
+namespace jkyang\Obs;
 
 use Monolog\Logger;
 use GuzzleHttp\Client;
@@ -10,10 +10,10 @@ use GuzzleHttp\Handler\CurlMultiHandler;
 use GuzzleHttp\Handler\Proxy;
 use GuzzleHttp\Promise\Promise;
 use Illuminate\Support\Facades\Log;
-use JkYang\Obs\Internal\Resource\Constants;
-use JkYang\Obs\Internal\Common\SdkCurlFactory;
-use JkYang\Obs\Internal\Common\SdkStreamHandler;
-use JkYang\Obs\Internal\Common\Model;
+use jkyang\Obs\Internal\Resource\Constants;
+use jkyang\Obs\Internal\Common\SdkCurlFactory;
+use jkyang\Obs\Internal\Common\SdkStreamHandler;
+use jkyang\Obs\Internal\Common\Model;
 
 define('DEBUG', Logger::DEBUG);
 define('INFO', Logger::INFO);

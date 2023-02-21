@@ -1,15 +1,15 @@
 <?php
 
-namespace JkYang\Obs\Internal\Signature;
+namespace jkyang\Obs\Internal\Signature;
 
 use Illuminate\Support\Facades\Log;
 use GuzzleHttp\Psr7\Stream;
-use JkYang\Obs\Internal\Resource\Constants;
-use JkYang\Obs\ObsException;
-use JkYang\Obs\Internal\Common\SchemaFormatter;
-use JkYang\Obs\Internal\Common\Model;
-use JkYang\Obs\Internal\Common\ObsTransform;
-use JkYang\Obs\Internal\Common\V2Transform;
+use jkyang\Obs\Internal\Resource\Constants;
+use jkyang\Obs\ObsException;
+use jkyang\Obs\Internal\Common\SchemaFormatter;
+use jkyang\Obs\Internal\Common\Model;
+use jkyang\Obs\Internal\Common\ObsTransform;
+use jkyang\Obs\Internal\Common\V2Transform;
 use Psr\Http\Message\StreamInterface;
 
 abstract class AbstractSignature implements SignatureInterface
