@@ -10,7 +10,7 @@
 # Installation
 
 ```shell
-$ composer require "JkYang/laravel-filesystem-obs" -vvv
+$ composer require "jkyang/laravel-filesystem-obs" -vvv
 ```
 
 # Configuration
@@ -31,7 +31,7 @@ $ composer require "JkYang/laravel-filesystem-obs" -vvv
  return [
     'disks' => [
         //...
-        'hw_obs' => [
+        'obs' => [
             'driver' => 'obs',
             'key' => env('OBS_ACCESS_ID'), // <AccessKeyId>
             'secret' => env('OBS_ACCESS_KEY'), // <OBS AccessKeySecret>
@@ -49,7 +49,7 @@ $ composer require "JkYang/laravel-filesystem-obs" -vvv
 # Usage
 
 ```php
-$disk = Storage::disk('hw_obs');
+$disk = Storage::disk('obs');
 
 // create a file
 $disk->put('avatars/filename.jpg', $fileContents);
